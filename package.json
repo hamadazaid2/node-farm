@@ -1,0 +1,26 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamadazaid2/node-farm.git"
+  },
+  "author": "HamadaZaid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamadazaid2/node-farm/issues"
+  },
+  "homepage": "https://github.com/hamadazaid2/node-farm#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
