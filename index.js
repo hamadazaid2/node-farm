@@ -24,7 +24,13 @@ const tempProduct = fs.readFileSync(`${__dirname}/templates/template-product.htm
 // SERVER 
 
 const server = http.createServer((req, res) => {
+    //    /overview?id=5 => /overview: pathname        ?id=5: query
+    //    
     const { query, pathname } = url.parse(req.url, true);
+    console.log('--------------------------------');
+    console.log(url.parse(req.url, true));
+    console.log('--------------------------------');
+
 
     // Overview page
     if (pathname === '/' || pathname === '/overview') {
